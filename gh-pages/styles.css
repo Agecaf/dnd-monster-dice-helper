@@ -1,7 +1,48 @@
-.monster {
-  margin: 0px 100px 0px 100px;
+
+p {
+  margin: 0px 0px 0.2em 0px;
+  line-height: 1.2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.monster p {
-  margin: 0px 0px 0.2em 0px;
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
 }
+
+button, .numeric {
+  font-family: 'Merriweather', serif;
+}
+
+.feature {
+  font-family: 'Patua One', cursive;
+}
+
+.mono-font {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.cool-font {
+  font-family: 'Metal Mania', cursive;
+}
+
+.small-font {
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: 0.8em; /* change this to whatever height you want it */
+}
+
+/*
+
+font-family: 'Merriweather', serif;
+font-family: 'Metal Mania', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Source Code Pro', monospace;
+
+*/
