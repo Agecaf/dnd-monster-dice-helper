@@ -143,14 +143,18 @@ uk-tooltip="title: ; animation: uk-animation-shake;"
 }
 
 function roll(n, d, m) {
-  out = 0;
+  let out = 0;
+  let idx = n;
 
-  while (n > 0) {
+  while (idx > 0) {
     out += Math.floor((Math.random() * d) + 1)
-    n--;
+    idx--;
   }
 
-  return out + m;
+  let crit = "";
+  if (out === n*d || out === n) {crit = "!!!"}
+
+  return `${out + m}${crit}`;
 }
 
 function rollNotify(r, m, id) {
